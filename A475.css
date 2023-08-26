@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: rgb(178, 184, 151);
+  border: 5px solid rgb(84, 82, 82);
+  text-align: center;
+  padding: 10px;
+}
+.title_tag {
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+}
+.description_tag {
+  font-size: 1.15rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 7px;
+  margin-bottom: 2px;
+}
+.title_input_box {
+  width: 45%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 3px solid rgb(47, 45, 45);
+  font-size: 1.15rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+.description_input_box {
+  width: 55%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 3px solid rgb(47, 45, 45);
+  font-size: 1.1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 0.9px;
+}
+.save_button {
+  background-color: rgb(186, 238, 186);
+  border: 2px solid black;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.save_button:hover {
+  border: 3px solid black;
+  box-shadow: 2px 2px 5px black;
+  background-color: lawngreen;
+}
+.container2 {
+  padding: 25px;
+  background-color: rgb(178, 184, 151);
+  border: 5px solid rgb(84, 82, 82);
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.title_tag_1 {
+  font-weight: bold;
+}
+.description_tag_1 {
+  font-weight: bold;
+}
+.delete_button {
+  background-color: rgb(248, 113, 113);
+  border: 2px solid black;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.delete_button:hover {
+  border: 3px solid black;
+  box-shadow: 2px 2px 5px black;
+  background-color: red;
+}
+li {
+  margin-top: 20px;
+}
+.edit_button {
+  background-color: rgb(199, 206, 176);
+  border: 2px solid black;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.edit_button:hover {
+  border: 3px solid black;
+  box-shadow: 2px 2px 5px black;
+  background-color: yellow;
+}
+.edit_title_input {
+  width: 45%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 3px solid rgb(47, 45, 45);
+  font-size: 1.15rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+.edit_description_input {
+  width: 55%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 3px solid rgb(47, 45, 45);
+  font-size: 1.1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 0.9px;
+  margin-top: 5px;
+}
+.done_button {
+  background-color: rgb(186, 238, 186);
+  border: 2px solid black;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.done_button:hover {
+  border: 3px solid black;
+  box-shadow: 2px 2px 5px black;
+  background-color: lawngreen;
+}
